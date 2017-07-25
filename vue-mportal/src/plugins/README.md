@@ -1,0 +1,1 @@
+用来放 Vue.use 注入到Vue全局的插件库，比如：请求加载、弹框、分页、ui组件 等等。plugins 只是把 componets 组件暴露给 Vue全局。

@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+.tab-menu{
+	background: #fff;
+	height: .58rem;
+	/*padding: .23rem 0;*/
+	padding-top: .23rem;
+}
+.tab-menu div{
+	float: left;
+	width: 2.133rem;
+	height: .4rem;
+	text-align: center;
+	box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+.tab-menu div:nth-of-type(2){
+	border-left: .01rem solid #efefef;
+	border-right: .01rem solid #efefef;
+}
+.tab-menu div span{
+	display: inline-block;
+	height: .58rem;
+	font-size: .28rem;
+	color: #666666;
+}
+
+.active span{
+	color: #f75c5c !important;
+	border-bottom:.02rem solid #f75c5c;
+}
+
+
+.info-person{
+	margin-top: .3rem;
+	background: #ffffff;
+}
+.info-person .title{
+	border-bottom: .01rem solid #efefef;
+	height: .76rem;
+}
+.info-person .title span{
+	border-left: .04rem solid #f75c5c;
+	margin-left: .3rem;
+	padding-left: .26rem;
+	line-height: .76rem;
+	font-size: .28rem;
+}
+.info-person .content{
+	padding: .24rem 0 .24rem .3rem;
+}
+.info-person .content .info{
+	margin-top: .3rem;
+}
+.info-person .content .info:nth-of-type(1){
+	margin: 0;
+}
+.info-person .content .info .info-title{
+	float: left;
+	display: inline-block;
+	width: 1.3rem;
+	text-align: center;
+	font-size: .22rem;
+	color: #999999;
+}
+.info-person .content .info .info-content{
+	float: left;
+	display: inline-block;
+	margin-left: .3rem;
+	width: 4.4rem;
+	word-wrap:break-word;
+	word-break:break-all;
+	font-size: .22rem;
+}
+
+
+.info-pro{
+	margin-top: .3rem;
+	background: #ffffff;
+}
+.info-pro .title{
+	border-bottom: .01rem solid #efefef;
+	height: .76rem;
+}
+.info-pro .title span{
+	border-left: .04rem solid #f75c5c;
+	margin-left: .3rem;
+	padding-left: .26rem;
+	line-height: .76rem;
+	font-size: .28rem;
+}
+.info-pro .content{
+	font-size: .22rem;
+	color: #999999;
+	padding: .24rem .3rem;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+
+
+.info-examine{
+	margin-top: .3rem;
+	background: #ffffff;
+}
+.info-examine .title{
+	border-bottom: .01rem solid #efefef;
+	height: .76rem;
+}
+.info-examine .title span{
+	border-left: .04rem solid #f75c5c;
+	margin-left: .3rem;
+	padding-left: .26rem;
+	line-height: .76rem;
+	font-size: .28rem;
+}
+.info-examine .content{
+	
+}
+.info-examine .content .info{
+
+}
+.info-examine .content .info .info-title{
+	height: .76rem;
+	line-height: .76rem;
+	padding:0 .3rem;
+}
+.info-examine .content .info .info-title .show{
+	/*border-bottom: .01rem solid red;*/
+	border-bottom: .01rem solid #efefef;
+}
+.info-examine .content .info:last-child .info-title .show{
+	border-bottom: 0;
+}
+.info-examine .content .info .info-title .des{
+	float: left;
+	line-height: .76rem;
+	color: #666666;
+	font-size: .26rem;
+	margin-left: .2rem;
+}
+.info-examine .content .info .info-title .status-up{
+	float: right;
+	width: .3rem;
+	height: .3rem;
+	background: url("../images/up.png") no-repeat;
+    background-size: .3rem .3rem;
+    margin-top: .23rem;
+}
+.info-examine .content .info .info-title .status-down{
+	float: right;
+	width: .3rem;
+	height: .3rem;
+	background: url("../images/down.png") no-repeat;
+    background-size: .3rem .3rem;
+    margin-top: .23rem;
+}
+.info-examine .content .info .info-title .info-1{
+	float: left;
+	width: .12rem;
+	height: .12rem;
+	background: #FFB74D;
+	border-radius: .1rem;
+	margin-top: .32rem;
+}
+.info-examine .content .info .info-title .info-2{
+	float: left;
+	width: .12rem;
+	height: .12rem;
+	background: #FFE0B2;
+	border-radius: .1rem;
+	margin-top: .32rem;
+}
+.info-examine .content .info .info-title .info-3{
+	float: left;
+	width: .12rem;
+	height: .12rem;
+	background: #3CBDD1;
+	border-radius: .1rem;
+	margin-top: .32rem;
+}
+.info-examine .content .info .info-title .info-4{
+	float: left;
+	width: .12rem;
+	height: .12rem;
+	background: #75AEF5;
+	border-radius: .1rem;
+	margin-top: .32rem;
+}
+.info-examine .content .info .info-content{
+	padding: .22rem .3rem .3rem .3rem;
+	background: #efefef;
+}
+.info-examine .content .info .info-content span{
+	float: left;
+	margin-left: .08rem;
+	margin-top: .08rem;
+	width: 1.39rem;
+	height: 1.39rem;
+}
+.info-examine .content .info .info-content span:nth-of-type(4n+1){
+	margin-left: 0;
+}
+.info-examine .content .info .info-content span img{
+	width: 1.39rem;
+	height: 1.39rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

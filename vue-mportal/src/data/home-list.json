@@ -1,0 +1,38 @@
+{
+  "code": 200,
+  "msg": "",
+  "data": {
+    "paginate": {},
+    "items": [{
+      "targetType":"0",
+      "targetId":"007",
+      "targetName": "聚诚宝",
+      "tag":"低风险,高收益",
+      "interestRate": 0.08,
+      "duration": 120,
+      "biddingStartAmount": 5000,
+      "biddingProgress": 30,
+      "repaymentType":"ETP"
+    }, {
+      "targetType":"1",
+      "targetId":"008",
+      "targetName": "小金罐",
+      "tag": "随时赎回,新手标",
+      "interestRate": 0.085,
+      "duration": 60,
+      "biddingStartAmount": 5000,
+      "biddingProgress": 90,
+      "repaymentType":"ETP"
+    }, {
+      "targetType":"0",
+      "targetId":"009",
+      "targetName": "汇车计划",
+      "tag": "保本保息,新手标",
+      "interestRate": 0.1,
+      "duration": 45,
+      "biddingStartAmount": 5000,
+      "biddingProgress": 10,
+      "repaymentType":"ETP"
+    }]
+  }
+}

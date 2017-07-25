@@ -1,0 +1,220 @@
+@charset "utf-8";
+/*===========header start============*/
+#app .top {
+    height: .88rem;
+    line-height: .88rem;
+    background: #fff;
+    text-align: center;
+}
+
+#app .top h1 {
+    font-size: .36rem;
+}
+
+/*===========header end============*/
+/*===========content start============*/
+#app .scatterCont {
+    margin-bottom: .78rem;
+}
+
+#app .scatterCont .con {
+    margin-top: .3rem;
+    background: #ffffff;
+}
+
+#app .scatterCont .con .conTop {
+    padding-top: .16rem;
+}
+
+#app .scatterCont .con .conTop .box-tit .box-tit-left {
+    float: left;
+    padding-left: .3rem;
+    padding-right: .36rem;
+    border-bottom-right-radius: .96rem;
+    border-top-right-radius: .96rem;
+    height: .48rem;
+    line-height: .48rem;
+    font-size: .26rem;
+    color: #fff;
+    background: #83bdfe;
+}
+
+#app .scatterCont .con .conTop .box-tit .box-tit-right {
+    float: right;
+    margin-top: .06rem;
+    border-radius: .64rem .64rem .64rem .64rem;
+    width: 1.08rem;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .22rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#app .scatterCont .con .conTop .box-tit .first {
+    margin-right: .3rem;
+    border: 1px solid #ffb046;
+    color: #ff9609;
+}
+
+#app .scatterCont .con .conTop .box-tit .second {
+    margin-right: .08rem;
+    border: 1px solid #48d58e;
+    color: #48d58e;
+}
+
+/*====================================*/
+#app .scatterCont .con .conTop .box-content {
+    height: 1.55rem;
+    border-bottom: 1px solid #efefef;
+}
+
+#app .scatterCont .con .conTop .box-content .benefit {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#app .scatterCont .con .conTop .box-content .benefit .benefit-box {
+    padding-top: .24rem;
+    padding-left: 1.3rem;
+}
+
+#app .scatterCont .con .conTop .box-content .benefit .benefit-box .benefit-tit {
+    display: block;
+    font-size: .24rem;
+    font-weight: lighter;
+    color: #cccccc;
+}
+
+#app .scatterCont .con .conTop .box-content .benefit .benefit-box .benefit-num {
+    height: 0.9rem;
+    line-height: 0.9rem;
+    color: #f75959;
+    display: block;
+    font-family: "San Francisco";
+    font-size: .5rem;
+}
+
+#app .scatterCont .con .conTop .box-content .benefit .benefit-box .benefit-num b {
+    font-size: .9rem;
+    font-weight: normal;
+}
+
+#app .scatterCont .con .conTop .box-content .benefit .box-con-line {
+    margin-top: -1.2rem;
+    margin-left: 3.2rem;
+    display: block;
+    height: 1.02rem;
+    width: .02rem;
+    background: #efefef;
+}
+
+#app .scatterCont .con .conTop .box-content .deadline {
+    float: left;
+}
+
+#app .scatterCont .con .conTop .box-content .deadline .deadline-box {
+    padding-top: .24rem;
+    padding-left: .5rem;
+}
+
+#app .scatterCont .con .conTop .box-content .deadline .deadline-box .deadline-tit {
+    font-family: "San Francisco";
+    font-size: .24rem;
+    color: #cccccc;
+    display: block;
+}
+
+#app .scatterCont .con .conTop .box-content .deadline .deadline-box .deadline-num {
+    height: 0.9rem;
+    line-height: 0.9rem;
+    display: block;
+    color: #000;
+    font-size: .9rem;
+}
+#app .scatterCont .con .box-bottom{
+    margin: .14rem 0 .08rem;
+}
+#app .scatterCont .con .box-bottom li {
+    width: 50%;
+    float: left;
+    font-size: .24rem;
+    color: #666666;
+
+}
+
+#app .scatterCont .con .box-bottom li .sb-sand {
+    margin-left: .3rem;
+    background: url("../images/scatter/h-a-1.png") no-repeat;
+    display: inline-block;
+    height: .3rem;
+    line-height: .3rem;
+    padding-left: .44rem;
+    background-size: .3rem .3rem;
+}
+
+#app .scatterCont .con .box-bottom li .sb-snap {
+    float: right;
+    margin-right: .3rem;
+    padding-left: .44rem;
+    background: url("../images/scatter/h-a-2.png") no-repeat;
+    background-size: .3rem .3rem;
+    height: .3rem;
+    line-height: .3rem;
+}
+
+#app .scatterCont .con .lineOwn .frame {
+    display: inline-block;
+    width: .76rem;
+    height: .28rem;
+    line-height: .22rem;
+    color: #fa8a55;
+    font-size: .2rem;
+    font-weight: normal;
+    text-align: center;
+    background: url("../images/scatter/frame-1.png") no-repeat;
+    background-size: .76rem .28rem;
+}
+
+#app .scatterCont .con .lineOwn .liner {
+    float: left;
+    height: .04rem;
+    background: -webkit-linear-gradient(left, transparent, #ff6600); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, transparent, #ff6600); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, transparent, #ff6600); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, transparent, #ff6600); /* 标准的语法 */
+}
+
+#app .scatterCont .con .lineOwn .linerBot {
+
+    height: .04rem;
+    width: 100%;
+    background: #feeee7;
+}
+
+#app .scatterCont .con .linerOne .frame {
+    margin-left: 33.7%;
+}
+
+#app .scatterCont .con .linerTwo .frame {
+    margin-left: 68.3%
+}
+
+#app .scatterCont .con .linerThree .frame {
+    margin-left: 54.1%;
+}
+
+#app .scatterCont .con .linerOne .liner {
+    width: 40.7%;
+}
+
+#app .scatterCont .con .linerTwo .liner {
+    width: 75.3%
+}
+
+#app .scatterCont .con .linerThree .liner {
+    width: 61.2%;
+}
+
+/*===========content end============*/

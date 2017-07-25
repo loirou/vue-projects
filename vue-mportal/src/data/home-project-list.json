@@ -1,0 +1,33 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": {
+        "paginate": {},
+        "items": [{
+            "title": "聚诚宝",
+            "bg": "#ffa022",
+            "tag": { "menu2": true },
+            "num": 8.00,
+            "date": 120,
+            "price": 5000,
+            "scale": 80
+        }, {
+            "title": "车辆质押",
+            "bg": "#83bdfe",
+            "tag": { "menu4": true, "menu6": true },
+            "num": 8.50,
+            "date": 60,
+            "price": 5000,
+            "scale": 50
+        }, {
+            "title": "个人消费贷",
+            "bg": "#83bdfe",
+            "tag": { "menu4": true, "menu5": true },
+            "num": 9,
+            "num2": 2,
+            "date": 21,
+            "price": 5000,
+            "scale": 30
+        }]
+    }
+}

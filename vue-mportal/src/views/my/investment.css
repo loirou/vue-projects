@@ -1,0 +1,159 @@
+@charset "utf-8";
+#app .scatterCont .con {
+    margin-top: .3rem;
+    background: #ffffff;
+}
+
+#app .scatterCont .con .conTopLeft {
+    float: left;
+    margin-top: .15rem;
+    padding: 0 .36rem 0 .3rem;
+    border-bottom-right-radius: .96rem;
+    border-top-right-radius: .96rem;
+    height: .47rem;
+    line-height: .47rem;
+    font-size: .26rem;
+    color: #fff;
+    background: #83bdfe;
+}
+#app .scatterCont .con .conTopRight{
+    float: right;
+    margin-top: .15rem;
+    padding: 0 .3rem 0 .43rem;
+    height: .47rem;
+    line-height: .47rem;
+    font-size: .24rem;
+    color: #666;
+    background: url("../images/my-invester-1.png") no-repeat;
+    background-size: .34rem .34rem;
+    background-position: 0 0.065rem ;
+    letter-spacing: .01rem;
+    font-weight: lighter;
+}
+#app .scatterCont .con .conTopRight .rightNum{
+    color: #f75c5c;
+    font-weight: normal;
+}
+/*=============================================================*/
+#app .scatterCont .con .conMiddle{
+    padding: 0 .6rem;
+    height: 1.21rem;
+    line-height: 1.21rem;
+    width: 100%;
+    border-bottom: .01rem solid #efefef;
+}
+#app .scatterCont .con .conMiddle .rate{
+    float: left;
+    width: 1.81rem;
+    height:.71rem;
+    padding:.25rem 0;
+}
+#app .scatterCont .con .conMiddle .rate .rate-tit{
+    display: block;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .2rem;
+    font-weight: lighter;
+    color: #cccccc;
+}
+#app .scatterCont .con .conMiddle .rate .rate-num{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: #f75959;
+    display: block;
+    font-family: "San Francisco";
+    font-size: .3rem;
+}
+#app .scatterCont .con .conMiddle .rate .rate-num b{
+    font-size: .5rem;
+    font-weight: normal;
+}
+#app .scatterCont .con .conMiddle .deadline{
+    float: left;
+    width: 1.63rem;
+    height:.71rem;
+    padding:.25rem 0;
+    text-align: center;
+}
+#app .scatterCont .con .conMiddle .deadline .deadline-tit{
+    display: block;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .2rem;
+    font-weight: lighter;
+    color: #cccccc;
+}
+#app .scatterCont .con .conMiddle .deadline .deadline-num{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: #000;
+    display: block;
+    font-family: "San Francisco";
+    font-size: .5rem;
+}
+#app .scatterCont .con .conMiddle .benefit{
+    float: left;
+    width: 1.74rem;
+    height:.71rem;
+    padding:.25rem 0;
+    text-align: right;
+}
+#app .scatterCont .con .conMiddle .benefit .benefit-tit{
+    display: block;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .2rem;
+    font-weight: lighter;
+    color: #cccccc;
+}
+#app .scatterCont .con .conMiddle .benefit .benefit-num{
+    margin-right: .28rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: #f75959;
+    display: block;
+    font-family: "San Francisco";
+    font-size: .3rem;
+}
+#app .scatterCont .con .conMiddle .benefit .benefit-num b{
+    font-size: .5rem;
+    font-weight: normal;
+}
+#app .scatterCont .con .conMiddle .middleLine{
+    margin-top: .29rem;
+    float: left;
+    height: .72rem;
+    width: .02rem;
+    background: #efefef;
+}
+/*======================================================*/
+#app .scatterCont .con .conBottom{
+    height: .7rem;
+    line-height: .7rem;
+    padding: 0 .3rem;
+}
+#app .scatterCont .con .conBottom li{
+    width: 50%;
+    float: left;
+    font-size: .24rem;
+    letter-spacing: 0.01rem;
+    font-weight: lighter;
+    color: #666666;
+}
+#app .scatterCont .con .conBottom li .sb-sand{
+    float: left;
+    padding-left: .36rem;
+    background: url("../images/buyDay.png") no-repeat;
+    background-size: .3rem .3rem;
+    background-position: 0 .2rem;
+
+}
+#app .scatterCont .con .conBottom li .sb-snap{
+    float: right;
+    padding-left: .36rem;
+    background: url("../images/endDay.png") no-repeat;
+    background-size: .3rem .3rem;
+    background-position: 0 .2rem;
+}
+
+

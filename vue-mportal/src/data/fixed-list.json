@@ -1,0 +1,47 @@
+{
+  "code": 200,
+  "msg": "",
+  "data": {
+    "paginate": {},
+    "items": [{
+      "targetType":"1",
+      "targetId":"001",
+      "targetName": "聚诚宝",
+      "tags":[
+            {"name":"低风险","color":"#ffb046" } ,
+            {"name":"保本保息","color":"#48d58e" }
+          ],
+      "interestRate": 0.08,
+      "duration": 120,
+      "biddingStartAmount": 5000,
+      "biddingProgress":80,
+      "repaymentType":"ETP"
+    }, {
+      "targetType":"1",
+      "targetId":"002",
+      "targetName": "赢财宝",
+      "tags":[
+            {"name":"高收益","color":"#ffb046" } ,
+            {"name":"新手标","color":"#48d58e" }
+          ],
+      "interestRate": 0.085,
+      "duration": 60,
+      "biddingStartAmount": 5000,
+      "biddingProgress": 0,
+      "repaymentType":"ETP"
+    }, {
+      "targetType":"1",
+      "targetId":"003",
+      "targetName": "汇车计划",
+      "tags":[
+            {"name":"保本保息","color":"#ffb046" } ,
+            {"name":"新手标","color":"#48d58e" }
+          ],
+      "interestRate": 0.1,
+      "duration": 45,
+      "biddingStartAmount": 5000,
+      "biddingProgress": 100,
+      "repaymentType":"ETP"
+    }]
+  }
+}

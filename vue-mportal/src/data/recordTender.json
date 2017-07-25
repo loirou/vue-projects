@@ -1,0 +1,26 @@
+{
+  "code": 200,
+  "msg": "",
+  "data": {
+    "paginate": {},
+    "items": [{
+      "targetType":"0",
+      "targetId":"001",
+      "targetName": "汇赚钱",
+      "interestRate": 0.08,
+      "duration": 120,
+      "biddingAmount": "100,000",
+      "purchaseDate":"2016.08.20",
+      "biddingDeadline":"2016.08.21"
+    }, {
+      "targetType":"1",
+      "targetId":"002",
+      "targetName": "个人消费贷",
+      "interestRate": 0.11,
+      "duration": 21,
+      "biddingAmount": "100,000",
+      "purchaseDate":"2016.10.16",
+      "biddingDeadline":"2016.10.20"
+    }]
+  }
+}

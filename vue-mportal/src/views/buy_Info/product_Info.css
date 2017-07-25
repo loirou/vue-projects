@@ -1,0 +1,114 @@
+@charset "utf-8";
+.info{
+	padding:.3rem .8rem;
+	background: #ffffff;
+}
+.info .title{
+	text-align: center;
+}
+.info .title span{
+	font-size: .3rem;
+	color: #000;
+}
+.info .tag{
+	text-align: center;
+	margin-top: .1rem;
+}
+.info .tag span{
+	display: inline-block;
+    border-radius: .64rem .64rem .64rem .64rem;
+    width: 1.08rem;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .22rem;
+    font-weight: lighter;
+    text-align: center;
+	color: #ffb046;
+	border: 1px solid #ffb046;
+}
+.info .receive{
+	margin-top: .35rem;
+	text-align: center;
+}
+.info .receive .des{
+	font-size: .22rem;
+	color: #999;
+}
+.info .receive .num{
+	font-size: .9rem;
+	color: #f75c5c;
+}
+.info .des .des-info, .info .des span{
+	float: left;
+}
+.info .des .des-info:nth-of-type(2){
+	margin-left: .6rem;
+}
+.info .des .des-info:nth-of-type(3){
+	margin-left: .55rem;
+}
+.info .des .des-info .des{
+	font-size: .22rem;
+	color: #999;
+}
+.info .des .des-info .num{
+	font-size: .36rem;
+	color: #666666;
+}
+.line{
+	margin-left: .55rem;
+	display: block;
+    height: .6rem;
+    width: .02rem;
+    background: #efefef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

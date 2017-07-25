@@ -1,0 +1,38 @@
+{
+  "code": 200,
+  "msg": "",
+  "data": {
+    "paginate": {},
+    "items": [{
+      "targetType":"0",
+      "targetId":"004",
+      "targetName": "车贷123",
+      "tag":"保本保息",
+      "interestRate": 0.08,
+      "duration": 120,
+      "biddingStartAmount": 5000,
+      "biddingProgress": 30,
+      "repaymentType":"EPP"
+    }, {
+      "targetType":"0",
+      "targetId":"005",
+      "targetName": "个人消费贷",
+      "tag": "0风险",
+      "interestRate": 0.085,
+      "duration": 120,
+      "biddingStartAmount": 5000,
+      "biddingProgress": 50,
+      "repaymentType":"SPM"
+    }, {
+      "targetType":"0",
+      "targetId":"006",
+      "targetName": "融资租赁贷",
+      "tag": "保本保息,高收益",
+      "interestRate": 0.1488,
+      "duration": 110,
+      "biddingStartAmount": 5000,
+      "biddingProgress": 0,
+      "repaymentType":"IOP"
+    }]
+  }
+}

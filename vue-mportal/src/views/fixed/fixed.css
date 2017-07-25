@@ -1,0 +1,215 @@
+@charset "utf-8";
+/*===========header start============*/
+#app .top {
+    height: .88rem;
+    line-height: .88rem;
+    background: #fff;
+    text-align: center;
+}
+
+#app .top h1 {
+    font-size: .36rem;
+}
+
+/*===========header end============*/
+/*===========content start============*/
+#app .fixedCont{
+    background: #efefef;
+}
+#app .fixedCont .con{
+    margin-top: .3rem;
+    background: #ffffff;
+}
+#app .fixedCont .con .conTop{
+    padding-top:.16rem;
+}
+#app .fixedCont .con .conTop .box-tit .box-tit-left{
+    float:left;
+    padding-left: .31rem;
+    padding-right: .36rem;
+    border-bottom-right-radius: .96rem;
+    border-top-right-radius: .96rem;
+    height: .48rem;
+    line-height:.5rem;
+    font-size: .26rem;
+    color:#fff;
+    background: #ffa022;
+}
+#app .fixedCont .con .conTop .box-tit .box-tit-right{
+    float: right;
+    margin-top: .06rem;
+    border-radius: .64rem .64rem .64rem .64rem;
+    width: 1.08rem;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .22rem;
+    text-align: center;
+}
+#app .fixedCont .con .conTop .box-tit .first{
+    margin-right: .3rem;
+    border: 1px solid #ffb046;
+    color: #ff9609;
+}
+#app .fixedCont .con .conTop .box-tit .second{
+    margin-right: .08rem;
+    border: 1px solid #48d58e;
+    color: #48d58e;
+}
+/*====================================*/
+#app .fixedCont .con .conTop  .box-content{
+    height:1.55rem;
+    border-bottom: 1px solid #efefef;;
+}
+#app .benefit{
+    width:50%;
+    height: 100%;
+    float:left;
+}
+#app .benefit-box{
+    padding-top:.24rem;
+    padding-left:1.3rem;
+}
+#app .benefit-tit {
+    display: block;
+    font-size: .24rem;
+    font-weight: lighter;
+    color:#cccccc;
+}
+#app .benefit-num {
+    height: 0.9rem;
+    line-height: 0.9rem;
+    color:#f75959;
+    display: block;
+    font-family: "San Francisco";
+    font-size: .5rem;
+}
+#app .benefit-num b{
+    font-size: .9rem;
+    font-weight: normal;
+}
+#app .benefit .box-con-line{
+    margin-top: -1.2rem;
+    margin-left: 3.2rem;
+    display: block;
+    height: 1.02rem;
+    width: .02rem;
+    background: #efefef;
+}
+#app .deadline{
+    float:left;
+}
+#app .deadline-box{
+    padding-top:.24rem;
+    padding-left:.5rem;
+}
+#app .deadline-tit {
+    font-family: "San Francisco";
+    font-size: .24rem;
+    color:#cccccc;
+    display: block;
+}
+#app .deadline-num {
+    height: 0.9rem;
+    line-height: 0.9rem;
+    display: block;
+    color:#000;
+    font-size: .9rem;
+}
+#app .box-bottom{
+    margin: .14rem 0 .08rem;
+}
+#app .box-bottom li{
+    width:50%;
+    float:left;
+    font-size:.24rem;
+    color:#666666;
+}
+#app .box-bottom li .sb-sand {
+    margin-left: .3rem;
+    background: url("../images/scatter/h-a-1.png") no-repeat;
+    display: inline-block;
+    height: .3rem;
+    line-height: .3rem;
+    padding-left: .44rem;
+    background-size: .3rem .3rem;
+}
+#app .box-bottom li .sb-snap {
+    float: right;
+    margin-right: .3rem;
+    padding-left: .44rem;
+    background: url("../images/scatter/h-a-2.png") no-repeat;
+    background-size: .3rem .3rem;
+    height: .3rem;
+    line-height: .3rem;
+}
+
+#app .liner{
+    clear: both;
+    height:.04rem;
+    width: 100%;
+}
+
+#app .linerOne .start{
+    float: left;
+    border-radius: 0.4rem;
+    border: 0.01rem solid #ffb046;
+    height:.26rem;
+    line-height: .26rem;
+    color:#fa8a55;
+    background: #ffebe1;
+    margin-left: .04rem;
+    padding: 0 .1rem;
+    font-size: .16rem;
+}
+#app .linerTwo .end{
+    float: right;
+    border-radius: 0.4rem;
+    border: 0.01rem solid #999;
+    height:.26rem;
+    line-height: .26rem;
+    color:#999;
+    background: #eaeaea;
+    margin-right: .04rem;
+    padding: 0 .1rem;
+    font-size: .16rem;
+}
+#app .linerOne .triangle{
+    float: left;
+    clear: both;
+    margin-top: -0.015rem;
+    margin-bottom: 0.01rem;
+    width: 0.08rem;
+    padding-left: .2rem;
+    height: 0.08rem;
+    background: url("../images/scatter/triangle.png") no-repeat;
+    background-size:0.08rem 0.08rem;
+    background-position: .2rem;
+}
+#app .linerTwo .triangle2{
+    float: right;
+    clear: both;
+    margin-top: -0.015rem;
+    margin-bottom: 0.01rem;
+    width: 0.08rem;
+    padding-right: .2rem;
+    height: 0.08rem;
+    background: url("../images/scatter/triangle2.png") no-repeat;
+    background-size:0.08rem 0.08rem;
+
+}
+#app .linerTwo .frame{
+    margin-left: 5.5rem;
+    width:.8rem;
+    background: url("../images/scatter/fixed.png") no-repeat;
+    background-size: .8rem .28rem;
+}
+#app .linerOne .linerStart{
+    background: #feeee7;
+
+}
+#app .linerTwo .linerEnd{
+    background: #ecebea;
+
+}
+
+/*===========content end============*/

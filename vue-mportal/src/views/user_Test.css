@@ -1,0 +1,36 @@
+.title{
+  color: #225fba;
+  text-align: center;
+  font-size: .34rem;
+  font-weight: 4rem;
+  margin: 0 15%;
+}
+.test{
+  padding: 0.05rem .15rem;
+}
+body{
+  background-color: #fbf9fe;
+}
+/*Buttion测试*/
+.user-Test-Buttion{
+	height: .5rem;
+	line-height: .5rem;
+	background-color: #04be02;
+}
+/*Cell测试*/
+/*向右*/
+.user-Test-Cell-Right-Right{
+	text-align: right;
+	padding-right: 0.1rem;
+}
+.user-Test-Cell-Right-Right:after{
+	border-width: .02rem .02rem 0 0;
+}
+/*向左*/
+.user-Test-Cell-Left-Left{
+	text-align: left;
+	padding-left: .1rem;
+}
+.user-Test-Cell-Left-Left:after{
+	border-width: 0 0 .02rem .02rem;
+}

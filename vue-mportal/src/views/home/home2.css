@@ -1,0 +1,174 @@
+@charset "utf-8";
+#app .home-Top{
+	background-color: #eee;
+	height: .9rem;
+}
+#app .home-Top .call-Back{
+	width: .6rem;
+	height: .9rem;
+	display: inline-block;
+	background: url('../images/arrow_left_b.png') no-repeat .1rem .15rem;
+	background-size: .6rem .6rem;
+	float: left;
+}
+#app .home-Top .call-Back-Des{
+	float: left;
+	font-size: .4rem;
+	line-height: .9rem;
+	margin: 0 0 0 0.2rem;
+}
+#app .home-Banner{
+	text-align: center;
+	border-bottom: .01rem solid #bbbcbc;
+	height: 2rem;
+	line-height: 2rem;
+}
+#app .home-Des{
+	height: 1.2rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: .1rem 1rem 0 1rem;
+	border-bottom: .2rem solid #bbbcbc;
+}
+#app .home-Des span{
+	width: .6rem;
+    height: .5rem;
+	padding: 0.3rem .2rem 0.2rem .2rem;
+    border-radius: 1rem;
+	background-color: #999999;
+	display: inline-block;
+	float: left;
+}
+#app .home-Des span:nth-child(n+2)
+{
+	margin-left: .7rem;
+}
+
+#app .home-Content{
+	width: 100%;
+}
+#app .home-Content-Main{
+
+}
+#app .home-Content-Main-1{
+	height: .7rem;
+    line-height: .7rem;
+    border-bottom: .01rem solid #bbbcbc;
+}
+#app .home-Content-Main-1 .title-1{
+	float: left;
+	width: 1.3rem;
+    height: .4rem;
+    line-height: .4rem;
+	display: inline-block;
+	text-align: center;
+	background-color: #999999;
+	color: #fff;
+	border-radius: .1rem;
+	margin-top: .15rem;
+}
+#app .home-Content-Main-1 .title-2{
+	float: right;
+	display: inline-block;
+	width: .3rem;
+	height: .5rem;
+	background-color: #999999;
+	margin-top: .1rem;
+}
+#app .home-Content-Main-1 .title-3{
+	float: right;
+	display: inline-block;
+	margin-right: .57rem;
+}
+#app .home-Content-Main-2{
+	background-color: red;
+}
+#app .home-Content-Main-2 .left{
+	float: left;
+	width: 70%;
+	height: 2rem;
+}
+#app .home-Content-Main-2 .right{
+	float: right;
+	width: 30%;
+	height: 2rem;
+}
+
+#app .home-Footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 1rem;
+	background-color: red;
+}
+
+
+
+/*#app .home-Des-Line{
+	width: 100%;
+	border-bottom:1px solid #d3d3d3;
+  	height: 0;
+  	font-size: 0;
+  	line-height: 0;
+  	overflow: hidden;
+}*/
+circle {
+    -webkit-transition: stroke-dasharray .80s;
+    transition: stroke-dasharray .80s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

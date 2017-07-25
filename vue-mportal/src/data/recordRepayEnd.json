@@ -1,0 +1,28 @@
+{
+  "code": 200,
+  "msg": "",
+  "data": {
+    "paginate": {},
+    "items": [{
+      "targetType":"0",
+      "targetId":"001",
+      "targetName": "车辆质押",
+      "interestRate": 0.085,
+      "duration": 110,
+      "biddingAmount": "100,000",
+      "preInterest":"14.56",
+      "debtStartDate":"2016.08.16",
+      "biddingDeadline":"2016.08.30"
+    }, {
+      "targetType":"1",
+      "targetId":"002",
+      "targetName": "个人消费贷",
+      "interestRate": 0.11,
+      "duration": 21,
+      "biddingAmount": "100,000",
+      "preInterest":"59.17",
+      "debtStartDate":"2016.10.16",
+      "biddingDeadline":"2016.10.20"
+    }]
+  }
+}

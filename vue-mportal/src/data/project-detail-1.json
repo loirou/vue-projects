@@ -1,0 +1,56 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": {
+        "title": "周益宝1期",
+        "tag": "保本保息",
+        "rate": "14.00",
+        "terms": 45,
+        "startAmount": "1,000",
+        "residualDays": 2,
+        "scale": 60,
+        "items":[
+            [
+                {
+                    "title": "起息日期", 
+                    "value":"2016-08-20",
+                    "flg": "timeStart"
+                },
+                {
+                    "title": "结息日期", 
+                    "value":"2016-09-20",
+                    "flg": "timeEnd"
+                }
+            ],
+            [
+                {
+                    "title": "融资金额", 
+                    "value":"5,000,000",
+                    "flg": "Money1"
+                },
+                {
+                    "title": "可投金额", 
+                    "value":"360,000",
+                    "flg": "Money2"
+                },
+                {
+                    "title": "间隔金额", 
+                    "value":"1,000",
+                    "flg": "Money3"
+                },
+                {
+                    "title": "投资上限", 
+                    "value":"20,000",
+                    "flg": "Money4"
+                }
+            ],
+            [
+                {
+                    "title": "还款方式", 
+                    "value":"一次性还本付息",
+                    "flg": "way"
+                }
+            ]
+        ]
+    }
+}

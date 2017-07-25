@@ -1,0 +1,180 @@
+@charset "utf-8";
+#app .top {
+    margin-bottom: .01rem;
+    height: .88rem;
+    line-height: .88rem;
+    background: #fff;
+}
+#app .top  .call-Back{
+    float: left;
+    width: 0.6rem;
+    height: .9rem;
+    background: url("../images/scatter/left1.png") no-repeat;
+    background-size: .21rem .4rem;
+    background-position: .3rem .25rem;
+}
+#app .top h1 {
+    margin-left: 2.5rem;
+    font-size: .36rem;
+}
+
+#app .titIcon{
+    background: url("../images/scatter/pf-01.jpg") no-repeat;
+    width: 5.33rem;
+    height: .69rem;
+    margin:0 auto;
+    background-size:5.33rem .69rem ;
+}
+#app .bg {
+    background: #FFFFFF;
+}
+#app .oneFloor {
+    background: #FFF;
+    width:100%;
+    height:1.6rem;
+    border-top: 1px solid #efefef;
+    padding-top:.2rem
+}
+#app .todayInvest{
+    text-align: center;
+    display: inline-block;
+    margin-left:.38rem;
+    font-size:.26rem;
+    width: 1.2rem;
+}
+#app .startBearing {
+    text-align: center;
+    display: inline-block;
+    margin-left:0.98rem;
+    font-size:.26rem;
+    width: 1.2rem;
+}
+#app .loginOut{
+    text-align: center;
+    display: inline-block;
+    margin-left:0.98rem;
+    font-size:.26rem;
+    width: 1.2rem;
+}
+#app .todayInvest i{
+    clear: both;
+    display: inline-block;
+    font-size:.22rem;
+    color:#999999;
+}
+#app .startBearing i{
+    clear: both;
+    display: inline-block;
+    font-size:.22rem;
+    color:#999999;
+}
+#app .loginOut i{
+    clear: both;
+    display: inline-block;
+    font-size:.22rem;
+    color:#999999;
+}
+
+#app .investMsg span{
+    font-size: .28rem;
+    color:#333333;
+    display: block;
+}
+#app .twoFloor {
+    margin:0 .3rem;
+}
+#app .investMsg i{
+    margin-top: .1rem;
+    font-size: .22rem;
+    color:#999999;
+    display: block;
+}
+#app .amount {
+    margin-top: .4rem;
+    width: 100%;
+    height: .66rem;
+    line-height: .66rem;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid #efefef;
+    text-align: center;
+}
+#app .amount .amountAdd{
+    background: url("../images/scatter/pf_20.png") no-repeat;
+    width:.66rem;
+    height:.66rem;
+    background-size: .66rem .66rem;
+    display: inline-block;
+    float: left;
+}
+#app .amount .amountNum{
+    font-size: .6rem;
+    color:#f75a5a;
+    display: inline-block;
+}
+#app .amount .amountMinus{
+    background: url("../images/scatter/pf_17.png") no-repeat;
+    width:.66rem;
+    height:.66rem;
+    background-size: .66rem .66rem;
+    display: inline-block;
+    float: right;
+}
+#app .investTit {
+    padding-top: .3rem;
+    width: 100%;
+    height: .6rem;
+    border-bottom: 1px solid #efefef;
+}
+#app .investTit .earnings{
+    background: url("../images/scatter/pf_32.png") no-repeat;
+    background-size: .36rem .36rem;
+    line-height: .36rem;
+    height: .36rem;
+    display: inline-block;
+    padding-left: .4rem;
+    float: left;
+    color:#666666;
+    font-size: .24rem;
+}
+#app .investTit .balance{
+    background: url("../images/scatter/pf_29.png") no-repeat;
+    background-size: .34rem .33rem;
+    padding-left: .4rem;
+    height: .36rem;
+    line-height: .36rem;
+    display: inline-block;
+    float: right;
+    color:#666666;
+    font-size: .24rem;
+}
+#app .ht{
+    height: 4rem;
+}
+#app .boxComm{
+    border: 1px solid #f76464;
+    border-radius: 1.72rem 1.72rem 1.72rem 1.72rem;
+    width: 5rem;
+    height: .56rem;
+    padding-top: .2rem;
+    margin: 0 auto;
+    margin-bottom: .4rem;
+    text-align: center;
+    font-size: .28rem;
+}
+#app .recharge{
+    color: #f76464;
+}
+#app .nowInvestment{
+    background: #f75b5b;
+    color: #fff;
+}
+#app .pt4{
+    padding-top:.4rem;
+}
+#app .mt3{
+    margin-top:.3rem;
+}
+#app .pt2 {
+    padding-top: .2rem;
+}
+

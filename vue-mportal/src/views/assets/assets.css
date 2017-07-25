@@ -1,0 +1,108 @@
+@charset "utf-8";
+#app{
+    background: #fff;
+}
+#app .top {
+    margin-bottom: .01rem;
+    height: .88rem;
+    line-height: .88rem;
+
+}
+#app .top  .call-Back{
+    float: left;
+    width: 0.6rem;
+    height: .9rem;
+    background: url("../images/scatter/left1.png") no-repeat;
+    background-size: .21rem .4rem;
+    background-position: .3rem .25rem;
+}
+#app .top h1 {
+    margin-left: 2.5rem;
+    font-size: .36rem;
+}
+#app .assetsCont{
+    margin-left: .3rem;
+
+}
+#app .assetsTotal{
+    width: 5.8rem;
+    height: 3.82rem;
+    margin-bottom: .4rem;
+
+}
+#app .assetsCont .circle {
+    -webkit-transition: stroke-dasharray 1s;
+    transition: stroke-dasharray 1s;
+}
+#app .assetsTotal{
+    position: absolute;
+    top: 2.6rem;
+    left: 2.5rem;
+    width: 1.85rem;
+    height: .84rem;
+}
+#app .assetsTotal .totalTit{
+    display: inline-block;
+    padding-left: .2rem;
+    letter-spacing: .04rem;
+     font-size: .26rem;
+     height: .26rem;
+     line-height: .26rem;
+    color: #999;
+}
+#app .assetsTotal .totalNum{
+    display: inline-block;
+    margin-top: .16rem;
+    font-size: .4rem;
+    height: .4rem;
+    line-height: .4rem;
+    color: #000;
+}
+
+
+#app .totalList{
+    border-bottom: 1px solid #efefef;
+    padding-right: .3rem;
+    height: .87rem;
+    width: 5.8rem;
+}
+#app .totalList .list{
+    float: left;
+    margin-top: .38rem;
+    border-radius:.24rem;
+    width: .12rem;
+    height: .12rem;
+}
+#app .totalList .listR{
+    background: #fe5556;
+}
+#app .totalList .listO{
+    background: #ffb74d;
+}
+#app .totalList .listY{
+    background: #ffe0b2;
+}
+#app .totalList .listB{
+    background: #3cbdd1;
+}
+#app .totalList .listLB{
+    background: #75aef5;
+}
+#app .totalList .listP{
+    background: #eb87bf;
+}
+#app .totalList .listLeft{
+    float: left;
+    margin-left: .23rem;
+    font-size: .28rem;
+    color:#666;
+    height: .87rem;
+    line-height: .87rem;
+}
+#app .totalList .listRight{
+    float: right;
+    font-size: .28rem;
+    color:#000;
+    height: .87rem;
+    line-height: .87rem;
+}

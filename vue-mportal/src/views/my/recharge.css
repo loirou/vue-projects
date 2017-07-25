@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*===========header start============*/
+
+#app .top {
+    height: .88rem;
+    line-height: .88rem;
+    background: #fff;
+    text-align: center;
+}
+
+#app .top h1 {
+    font-size: .36rem;
+}
+
+
+/*===========header end============*/
+
+
+/*===========content start============*/
+
+.recharge-form {
+    margin-top: .3rem;
+    padding-left: .3rem;
+    background: #fff;
+}
+
+.recharge-item {
+    line-height: .48rem;
+    border-bottom: .01rem solid #efefef;
+    padding: 0.2rem 0;
+}
+
+.recharge-form span {
+    font-size: .28rem;
+}
+
+.recharge-tip {
+    display: inline-block;
+    width: 1.12rem;
+}
+
+.recharge-data {
+    margin-left: .4rem;
+}
+
+.recharge-data input {
+    border: none;
+    font-size: .28rem;
+}
+
+.recharge-type {
+    margin-top: .3rem;
+}
+
+.recharge-type .title {
+    font-size: .22rem;
+    color: #999;
+    padding-left: .3rem;
+}
+
+.recharge-type .type-list {
+    margin-top: .16rem;
+    background: #fff;
+    padding-left: .3rem;
+}
+
+.recharge-type .type-item {
+    /*line-height: 1.1rem;*/
+    border-bottom: .01rem solid #efefef;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.type-item div {
+    font-size: .28rem;
+}
+
+.recharge-type .type-item:last-child {
+    /*line-height: .88rem;*/
+    border: none;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+.type-item .item-left {
+    float: left;
+}
+.type-item .item-right {
+    margin-right: .3rem;
+    float: right;
+    background: url("../images/rd-checked.png") no-repeat;
+    background-size: .4rem .4rem;
+    width: .4rem;
+    height: .4rem;
+}
+.type-item .item-right1 {
+    margin-top: .15rem;
+}
+.type-item .item-right2 {
+    background: url("../images/rd-unchecked.png") no-repeat;
+    background-size: .4rem .4rem;
+    width: .4rem;
+    height: .4rem;
+}
+.type-item .tip {
+    font-size: .22rem;
+    color: #999;
+}
+.btn-card {
+    width: .76rem;
+    height: .32rem;
+    border: .01rem solid #F75C5C;
+    color: #f75c5c;
+    border-radius: .5rem;
+    font-size: .2rem;
+    background: #fff;
+}
+.bottom-button {
+    width: 100%;
+    margin-top: .8rem;
+    text-align: center;
+}
+.btn-submit {
+    width: 5rem;
+    height: .8rem;
+    font-size: .3rem;
+    color: #fff;
+    background: #f75c5c;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+}
+
+
+/*===========content end============*/

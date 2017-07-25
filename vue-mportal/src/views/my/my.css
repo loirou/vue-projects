@@ -1,0 +1,286 @@
+@charset "utf-8";
+/*顶部*/
+#app .my-Top{
+	color: #ffffff;
+	background: url('../images/my/my-8.png') no-repeat;
+	background-size: 6.4rem 5.02rem;
+	padding-bottom: .5rem;
+}
+#app .my-Top .point{
+	height: 100%;
+	background: url('../images/my/my-9.png') repeat;
+	background-size: 5.48rem 2.76rem;
+}
+#app .my-Top .title .call-Back{
+	float: left;
+	width: 0.6rem;
+	height: .88rem;
+	display: inline-block;
+	background: url('../images/left.png') no-repeat 0.1rem 0.2rem;
+	background-size: .21rem .4rem;
+}
+
+#app .my-Top .title{
+	height: .88rem;
+	line-height: .88rem;
+}
+#app .my-Top .title .title-Image{
+	float: left;
+	display: inline-block;
+	width: .6rem;
+	height: .6rem;
+	background: url('../images/my/my-7.png') no-repeat;
+	background-size: .6rem .6rem;
+	/*margin-left: .3rem;*/
+	border: .03rem solid rgba(255,255,255,0.6);
+    border-radius: 0.6rem;
+    margin-top: .1rem;
+}
+#app .my-Top .title .title-Num{
+	float: left;
+	font-family:"San Fransico";
+	display: inline-block;
+	height: 100%;
+	margin-left: .1rem;
+	font-size: .26rem;
+}
+/*中部*/
+#app .my-Top .center{
+	margin-top: .1rem;
+	text-align: center;
+}
+#app .my-Top .center .center-1{
+	height: .5rem;
+	line-height: .5rem;
+}
+#app .my-Top .center .center-1 .center-1-1{
+	float: left;
+	display: inline-block;
+	width: .24rem;
+	height: 100%;
+	background: url('../images/my/my-13.png') no-repeat 0 0.11rem;
+	background-size: .24rem .27rem;
+	margin-left: 2.05rem;
+}
+#app .my-Top .center .center-1 .center-1-2{
+	float: left;
+	font-size: .26rem;
+	margin-left: 0.1rem;
+	color: rgba(255,255,255,0.6);
+}
+#app .my-Top .center .center-1 .center-1-3{
+	float: left;
+	display: inline-block;
+	width: .31rem;
+	height: 100%;
+	background: url('../images/my/my-12.png') no-repeat 0 0.15rem;
+	background-size: .31rem .21rem;
+	margin-left: 0.2rem;
+}
+#app .my-Top .center .center-2{
+	text-align: center;
+}
+#app .my-Top .center .center-2 .center-2-1{
+	font-size: .64rem;
+	font-family:"San Fransico";
+}
+#app .my-Top .center .center-2 .center-2-2{
+	font-size: .46rem;
+	font-family:"San Fransico";
+}
+/*底部*/
+#app .my-Top .bottom{
+	 margin-top: .25rem;
+}
+#app .my-Top .bottom .bottom-1{
+	float: left;
+	width: 50%;
+	-moz-box-sizing:border-box; /* Firefox */  
+	-webkit-box-sizing:border-box; /* Safari */
+	border-right: .01rem solid rgba(255,255,255,0.2);
+	padding-right: .3rem;
+}
+#app .my-Top .bottom .bottom-3{
+	float: left;
+	width: 50%;
+}
+#app .my-Top .bottom .dec-1{
+	font-size: .22rem;
+	color: rgba(255,255,255,0.6);
+	text-align: right;
+}
+#app .my-Top .bottom .num-1{
+	font-size: .32rem;
+	text-align: right;
+}
+#app .my-Top .bottom .dec-3{
+	font-size: .22rem;
+	color: rgba(255,255,255,0.6);
+	padding-left: .3rem;
+}
+#app .my-Top .bottom .num-3{
+	font-size: .32rem;
+	padding-left: .3rem;
+}
+
+/*操作*/
+#app .my-Handle{
+	background-color: #ffffff;
+	margin-top: .3rem;
+	/*padding: .2rem 0;*/
+}
+#app .my-Handle .my-Handle-left{
+	float: left;
+	width: 50%;
+	padding: .2rem 0;
+	border-right: .01rem solid #efefef;
+	box-sizing:border-box;  
+	-moz-box-sizing:border-box; /* Firefox */  
+	-webkit-box-sizing:border-box; /* Safari */
+}
+#app .my-Handle .my-Handle-right{
+	float: left;
+	width: 50%;
+	padding: .2rem 0;
+}
+#app .my-Handle .handle-1{
+	text-align: center;
+	float: left;
+	/*width: 50%;*/
+	/*padding: .2rem 0;*/
+}
+#app .my-Handle .handle-2{
+	text-align: center;
+	float: left;
+	/*width: 3.195rem;*/
+	/*padding: .2rem 0;*/
+}
+#app .my-Handle .handle-1 .handle-1-img{
+	float: left;
+	display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url('../img/c-draw.png') no-repeat;
+    background-size: .78rem .78rem;
+    /*border-radius: .3rem .3rem .3rem .3rem;*/
+    margin-left: 0.85rem;
+
+}
+#app .my-Handle .handle-2 .handle-2-img{
+	float: left;
+	display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url('../img/c-prepaid.png') no-repeat;
+    background-size: .78rem .78rem;
+    /*border-radius: .3rem .3rem .3rem .3rem;*/
+    margin-left: 0.85rem;
+}
+#app .my-Handle .handle-des{
+	float: left;
+	margin-left: .2rem;
+	font-size: .3rem;
+	display: inline-block;
+	line-height: 0.8rem;
+}
+
+
+#app .property{
+	margin-top: .3rem;
+	background-color: #ffffff;
+	padding-left: .3rem;
+}
+#app .property .property-1{
+	border-bottom: .01rem solid #efefef;
+	padding: 0.2rem 0;
+}
+#app .property .property-2{
+	padding: 0.2rem 0;
+}
+#app .property .property-1-img{
+	float: left;
+	display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url('../images/my/my-10.png') no-repeat;
+    background-size: .37rem .37rem;
+}
+#app .property .property-2-img{
+	float: left;
+	display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url('../images/my/my-11.png') no-repeat;
+    background-size: .37rem .37rem;
+}
+#app .property .property-des{
+	float: left;
+	font-size: .28rem;
+	margin-left: .3rem;
+}
+#app .property .property-right{
+	float: right;
+	display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url('../images/my/my-5.png') no-repeat 0 .1rem;
+    background-size: .14rem .26rem;
+}
+
+.line-Upright{
+	display: inline-block;
+	height:.7rem;
+	width: 50%;
+	border-left: .01rem solid #efefef;
+	margin-left: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

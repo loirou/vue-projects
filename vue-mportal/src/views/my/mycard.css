@@ -1,0 +1,102 @@
+@charset "utf-8";
+#app .top {
+    margin-bottom: .01rem;
+    height: .88rem;
+    line-height: .88rem;
+    background: #fff;
+}
+#app .top  .call-Back{
+    float: left;
+    width: 0.6rem;
+    height: .9rem;
+    background: url("../images/scatter/left1.png") no-repeat;
+    background-size: .21rem .4rem;
+    background-position: .3rem .25rem;
+}
+#app .top h1 {
+    margin-left: 2.5rem;
+    font-size: .36rem;
+}
+
+#app .bank{
+    margin: .3rem .2rem 0 .2rem;
+    width: 6rem;
+    height: 1.6rem;
+    background: url("../images/bankbg/JTYHBG.png") no-repeat;
+    background-size: 6rem 1.6rem;
+}
+#app .bank .bank-icon{
+    float: left;
+    width: 1.1rem;
+    height: 1.6rem;
+}
+#app .bank .bank-icon .bank-icon-msg{
+    margin: .2rem .2rem .24rem .2rem;
+    border-radius: .7rem;
+    width: .7rem;
+    height: .7rem;
+    background: #fff;
+    filter:alpha(opacity:80);
+    opacity:0.8;
+    -moz-opacity:0.8;
+    -khtml-opacity: 0.8;
+}
+#app .bank .bank-icon span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bank/JTYH.png") no-repeat;
+    background-size:  .5rem .5rem;
+    background-position: 0.1rem 0.1rem;
+}
+#app .bank .bank-msg{
+    float: right;
+    width: 4.9rem;
+    height: 1.6rem;
+    color: #fff;
+}
+#app .bank .bank-msg p{
+    padding-top: .2rem;
+    font-size: .26rem;
+}
+#app .bank .bank-msg .bank-type{
+    display: block;
+    padding-top: .05rem;
+    font-size: .2rem;
+}
+#app .bank .bank-msg .bank-card{
+    padding-top: .25rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .28rem;
+}
+#app .bank .bank-msg .bank-card .bank-card-left{
+    float: left;
+    padding-top: .05rem;
+    filter:alpha(opacity:60);
+    opacity:0.6;
+    -moz-opacity:0.6;
+    -khtml-opacity: 0.6;
+}
+#app .bank .bank-msg .bank-card .bank-card-right{
+    float: left;
+    padding-left: .2rem;
+}
+
+#app .add-bank{
+    margin: .3rem .2rem 0 .2rem;
+    border: 1px dashed #ccc;
+    border-radius: 5%;
+    width: 5.98rem;
+    height: 1.38rem;
+    line-height: 1.38rem;
+    text-align: center;
+}
+#app .add-bank .add-des{
+    padding-left: .5rem;
+    background: url("../images/addBank.png") no-repeat;
+    background-size: .36rem .36rem;
+    background-position-y: 0.02rem;
+    font-size: .3rem;
+    color: #666;
+}
