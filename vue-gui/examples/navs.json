@@ -1,0 +1,137 @@
+[
+  {
+    "title": "JS Components",
+    "list": [
+      {
+        "path": "/toast",
+        "name": "Toast",
+        "icon": "toast"
+      },
+      {
+        "path": "/indicator",
+        "name": "Indicator",
+        "icon": "indicator"
+      },
+      {
+        "path": "/action-sheet",
+        "name": "Action Sheet",
+        "icon": "action-sheet"
+      },
+      {
+        "path": "/swiper",
+        "name": "Swiper",
+        "icon": "swiper"
+      },
+      {
+        "path": "/alerts",
+        "name": "Alerts",
+        "icon": "alerts"
+      },
+      {
+        "path": "/modal",
+        "name": "Modals",
+        "icon": "modals"
+      },
+      {
+        "path": "/popover",
+        "name": "Popover",
+        "icon": "popover"
+      },
+      {
+        "path": "/loadmore",
+        "name": "Load More",
+        "icon": "load-more"
+      },
+      {
+        "path": "/infinite-scroll",
+        "name": "Infinite Scroll",
+        "icon": "infinite-scroll"
+      },
+      {
+        "path": "/picker",
+        "name": "Picker",
+        "icon": "picker"
+      },
+      {
+        "path": "/datetime-picker",
+        "name": "Datetime Picker",
+        "icon": "datetime-picker"
+      }
+    ]
+  },
+  {
+    "title": "CSS Components",
+    "list": [
+      {
+        "path": "/button",
+        "name": "Buttons",
+        "icon": "buttons"
+      },
+      {
+        "path": "/header",
+        "name": "Header",
+        "icon": "header"
+      },
+      {
+        "path": "/tabs",
+        "name": "Tabs",
+        "icon": "tabs"
+      },
+      {
+        "path": "/tabbar",
+        "name": "Tabbar",
+        "icon": "tabbar"
+      },
+      {
+        "path": "/list",
+        "name": "Lists",
+        "icon": "lists"
+      },
+      {
+        "path": "/badge",
+        "name": "Badges",
+        "icon": "badges"
+      },
+      {
+        "path": "/icon",
+        "name": "Icons",
+        "icon": "icons"
+      },
+      {
+        "path": "/spinner",
+        "name": "Spinner",
+        "icon": "Spinner"
+      }
+    ]
+  },
+  {
+    "title": "Form Components",
+    "list": [
+      {
+        "path": "/input",
+        "name": "Input",
+        "icon": "input"
+      },
+      {
+        "path": "/select",
+        "name": "Select",
+        "icon": "select"
+      },
+      {
+        "path": "/checkbox",
+        "name": "Checkbox",
+        "icon": "checkbox"
+      },
+      {
+        "path": "/radio",
+        "name": "Radio",
+        "icon": "radio"
+      },
+      {
+        "path": "/switch",
+        "name": "Switch",
+        "icon": "switch"
+      }
+    ]
+  }
+]
